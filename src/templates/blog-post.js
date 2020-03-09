@@ -6,6 +6,7 @@ import { Layout } from '../layout'
 import { Head } from '../components/head'
 import { PostTitle } from '../components/post-title'
 import { PostContainer } from '../components/post-container'
+import { PostDate } from '../components/post-date'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
@@ -29,6 +30,7 @@ export default ({ data, pageContext, location }) => {
     <Layout location={location} title={title}>
       <Head title={post.frontmatter.title} description={post.excerpt} />
       <PostTitle title={post.frontmatter.title} />
+      <PostDate date={post.frontmatter.date} />
       <PostContainer html={post.html} />
       <Elements.Hr />
       <Bio />
