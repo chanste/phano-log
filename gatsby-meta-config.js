@@ -1,9 +1,9 @@
 module.exports = {
   title: `phanolog`,
-  description: `Blog posted about ...`,
+  description: `phano 성장기`,
   author: `hyung chan kim`,
   introduction: `욕심 가득한 주니어`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://phanolog.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `chanste`, // Your GitHub account
@@ -15,7 +15,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'chanste/phanolog', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
