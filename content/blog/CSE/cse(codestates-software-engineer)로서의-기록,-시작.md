@@ -1,5 +1,5 @@
 ---
-title: CSE(Codestates Software Engineer)로서의 기록 시작
+title: CSE(Codestates Software Engineer)로서의 기록
 date: 2020-03-09 18:03:97
 category: CSE
 draft: false
