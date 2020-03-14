@@ -2,7 +2,7 @@ module.exports = {
   title: `phanolog`,
   description: `phano 성장기`,
   author: `hyung chan kim`,
-  introduction: `욕심 가득한 주니어`,
+  introduction: `greedy junior`,
   siteUrl: `https://phanolog.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
